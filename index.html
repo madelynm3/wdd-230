@@ -13,8 +13,9 @@
     <h1>
        Maddy McGreer
     </h1>
+    <img class="picture of me" src="https://cdn.glitch.global/08636f9b-157e-4075-8e4f-4c88923b6ebe/pictureofme.jpg?v=1641704905307" alt="pictureofme">
     <h2>
-      WDD 230 Assignments
+    WDD 230 Assignments
     </h2>
     <li><a href="">Week 1</a></li>
     <li><a href="">Week 2</a></li>
@@ -31,4 +32,18 @@
     <li><a href="">Week 13</a></li>
     <li><a href="">Week 14</a></li>
   </body>
+  <footer class="footer">
+    <p id="dom"></p>
+    <p2>&copy;</p2>
+    <p3 id="curyear"></p3>
+
+    <script>
+      
+      const d = new Date();
+      document.getElementById("curyear").innerHTML = d.getFullYear();
+      var x = document.lastModified;
+      document.getElementById("dom").innerHTML = x;
+    </script>
+
+</footer>
 </html>
