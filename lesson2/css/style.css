@@ -63,7 +63,7 @@ p {
 
 main-grid {
     display:grid;
-    grid-template-columns:auto;
+    grid-template-columns:1fr 1fr 1fr;
     gap: 1em;
     justify-items:center;
   }
