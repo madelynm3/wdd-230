@@ -6,10 +6,9 @@ main {
 	max-width: 800px;
 	margin: 0 auto;
 	display: grid;
-	columns: 3;
 	font-size: 15px;
-  font-family: 'Rubik', sans-serif;
-  color:white;
+  	font-family: 'Rubik', sans-serif;
+  	color:white;
 }
 
 .header {
