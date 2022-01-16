@@ -67,7 +67,7 @@ p {
     display:grid;
     grid-template-columns:3;
     gap: 1em;
-    justify-items:left;
+    justify-items:center;
   }
 
 
