@@ -4,8 +4,8 @@
 
 main {
 	max-width: 800px;
-	margin: 0 auto;
-	display: grid;
+	margin: 0;
+	display: auto;
 	grid-template-columns:auto;
 	font-size: 15px;
   font-family: 'Rubik', sans-serif;
