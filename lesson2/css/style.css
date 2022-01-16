@@ -18,26 +18,34 @@ main {
   background: #222E50;
   color: white;
   font-size: 20px;
-}
-
-main section h1 {
-  font-size: 22px;
   font-family: 'Rubik', sans-serif;
-
 }
-main section h2 {
-  background-color:#222E50;
-  font-size: 15px;
-  font-family: 'Rubik', sans-serif;
 
-}
-h3 {
-  
+
+main section h3 .header{
+  padding:1px;
+  text-align: left;
   background-color:#222E50;
+  color: white;
   font-size: 25px;
   font-family: 'Rubik', sans-serif;
 
-
+}
+main section h4 .header{
+  padding:1px;
+  text-align: left;
+  background-color:#222E50;
+  color: white;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+}
+main section h5 .header{
+  padding:1px;
+  text-align: left;
+  background-color:#222E50;
+  color: white;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
 }
 main section {
 	margin: 0.5rem;
@@ -59,6 +67,20 @@ main-grid {
     gap: 1em;
     justify-items:center;
   }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
   /*Small view*/
 @media screen and (min-width:300){
   .main-grid{
