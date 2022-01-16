@@ -7,8 +7,8 @@ main {
 	margin: 0 auto;
 	display: grid;
 	font-size: 15px;
-  	font-family: 'Rubik', sans-serif;
-  	color:white;
+  font-family: 'Rubik', sans-serif;
+  color:white;
 }
 
 .header {
@@ -22,6 +22,7 @@ main {
 
 
 main section h3 .header{
+  width:285;
   padding:1px;
   text-align: left;
   background-color:#222E50;
@@ -31,6 +32,7 @@ main section h3 .header{
 
 }
 main section h4 .header{
+  width:285;
   padding:1px;
   text-align: left;
   background-color:#222E50;
@@ -39,6 +41,7 @@ main section h4 .header{
   font-family: 'Rubik', sans-serif;
 }
 main section h5 .header{
+  width:285;
   padding:1px;
   text-align: left;
   background-color:#222E50;
@@ -53,22 +56,25 @@ main section {
 	background-color: #eee;
 }
 
+body {
+  columns:3;
+  rows:1;
+}
 p {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
 
-  
 }
 
 main-grid {
     display:grid;
+    grid-template-columns:3;
     gap: 1em;
-    justify-items:center;
+    justify-items:left;
   }
 
-.section {
-	columns:3;
-}
+
+
   /*Small view*/
 @media screen and (min-width:300){
   .main-grid{
