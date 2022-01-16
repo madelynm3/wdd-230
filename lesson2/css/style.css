@@ -13,6 +13,7 @@ main {
 }
 
 .header {
+	width:800px;
   padding:1px;
   text-align: center;
   background: #222E50;
