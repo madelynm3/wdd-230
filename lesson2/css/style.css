@@ -6,6 +6,7 @@ main {
 	max-width: 800px;
 	margin: 0 auto;
 	display: grid;
+	grid-template-columns:3;
 	font-size: 15px;
   font-family: 'Rubik', sans-serif;
   color:white;
@@ -65,7 +66,7 @@ p {
 
 }
 
-main-grid {
+.main-grid {
     display:grid;
     grid-template-columns:3;
     gap: 1em;
