@@ -58,7 +58,6 @@ main section {
 
 body {
   columns:3;
-  rows:1;
 }
 p {
   font-size: 15px;
