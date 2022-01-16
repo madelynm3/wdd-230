@@ -62,24 +62,13 @@ p {
 
 main-grid {
     display:grid;
-    columns:3;
     gap: 1em;
     justify-items:center;
   }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
+.section {
+	columns:3;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
   /*Small view*/
 @media screen and (min-width:300){
   .main-grid{
