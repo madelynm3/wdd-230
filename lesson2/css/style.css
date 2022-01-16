@@ -57,9 +57,6 @@ main section {
 	background-color: #eee;
 }
 
-body {
-  columns:3;
-}
 p {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
