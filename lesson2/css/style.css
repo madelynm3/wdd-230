@@ -1,8 +1,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@200&family=Raleway:ital,wght@0,100;1,100&family=Rubik:ital,wght@0,300;0,400;1,400&display=swap');
 </style>
-/* body {} */
-/* phone or baseline views **************************/
+
 main {
 	max-width: 800px;
 	margin: 0 auto;
@@ -24,20 +23,20 @@ main {
 main section h1 {
   font-size: 22px;
   font-family: 'Rubik', sans-serif;
-	color: #white;
+
 }
 main section h2 {
   background-color:#222E50;
   font-size: 15px;
   font-family: 'Rubik', sans-serif;
-	color: #white;
+
 }
 h3 {
   
   background-color:#222E50;
   font-size: 25px;
   font-family: 'Rubik', sans-serif;
-	color:#white;
+
 
 }
 main section {
@@ -50,7 +49,7 @@ main section {
 p {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
-	color: #white;
+
   
 }
 
@@ -80,3 +79,4 @@ main-grid {
       grid-template-columns:1fr 1fr 1fr;
     }
   }
+
