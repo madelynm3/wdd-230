@@ -73,7 +73,7 @@ a {
 }
 
 img {
-    display: flex;
+    display: block;
     width: 100%;
     max-width: 350px;
     height: auto;
