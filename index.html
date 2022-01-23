@@ -33,18 +33,9 @@
     <li><a href="">Week 13</a></li>
     <li><a href="">Week 14</a></li>
   </body>
-  <footer class="footer">
-    <p id="dom"></p>
-    <p2>&copy;</p2>
-    <p3 id="curyear"></p3>
-
-    <script>
-      
-      const d = new Date();
-      document.getElementById("curyear").innerHTML = d.getFullYear();
-      var x = document.lastModified;
-      document.getElementById("dom").innerHTML = x;
-    </script>
-
-</footer>
+  <footer>
+    <p>&copy; <span id="year"></span> | Maddy McGreer | <!--do i put location here?--></p>
+    <p>Last Updated: <span id="date"></span><span id="time"></span><!--do i put time?--></p>
+  </footer>
+  <script src="wdd-230/javascript/script.js"></script>
 </html>
