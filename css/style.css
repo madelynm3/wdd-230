@@ -26,11 +26,11 @@ img {
   max-width: 100%;
 }
 .footer {
-  display: 
-  justify-content: 
+  display: flex;
+  justify-content:center;
   margin: 1rem auto 0;
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
-  border-top: 4px solid #fff;
+  border-top: 4px;
 }
