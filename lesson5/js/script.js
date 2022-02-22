@@ -4,11 +4,9 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 const list = document.querySelector("ul");
 
-
-// Create an click event listener for the Add Chapter button using addEventListener and an anonymous function.  
+// Create an click event listener for the Add Chapter button using addEventListener and an anonymous function.
 
 button.addEventListener("click", () => {
-	// Does not execute when input is empty
 	// Create an li element
 	if (input.value != "") {
 		const li = document.createElement("li");
@@ -24,13 +22,12 @@ button.addEventListener("click", () => {
 		li.appendChild(delete_button);
 		list.appendChild(li);
 
-		// Deletes item
 		// Add an event listener to the delete button that removes the li element when clicked
 		delete_button.addEventListener("click", () => {
 			list.removeChild(li);
 		});
-		
-		// Resets input
+
+		// Clear input
 		input.value = "";
 	}
 });
