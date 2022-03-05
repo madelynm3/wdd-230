@@ -19,13 +19,14 @@ prophets.forEach(displayProphets);
     let card = document.createElement('section');
     
     let h2 = document.createElement('h2');
-    h2.textContent = ('${prophet.name + prophet.lastname}'); 
+    h2.textContent = prophet.name + ' ' + prophet.lastname;
+
 
     let dob = document.createElement('p');
-    dob.textContent = (`Date of Birth: ${prophet.birthdate}`);
+    dob.textContent = `Date of Birth: ${prophet.birthdate}`
 
     let birthPlace = document.createElement('p');
-    birthPlace.textContent = (`Place of Birth: ${prophet.birthdate}`);
+    birthPlace.textContent = `Place of Birth: ${prophet.birthdate}`
 
     let portrait = document.createElement('img');
     portrait.src = prophet.imageurl;
