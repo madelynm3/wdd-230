@@ -1,36 +1,39 @@
+header {
+  padding: 15px;
+  background-color: #2b516e;
+  color: white;
+  text-align: center;    
+}
 
-/* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Staatliches&display=swap');
-
-body {
-  background-color: #69F7BE;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 5px 25px;
-  font-size: 18px;
-  margin: 0;
-  color: #444;
+header img {
+box-shadow: 10px 5px 5px black;
+width: 150px;
 }
 
 h1 {
-  font-family: "Staatliches", serif;
-  font-size: 32px;
-  color: #2800FF;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 h2 {
-  color: #2800FF;
-  font-family: "Source Sans Pro", serif;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2em;
 }
 
-img {
-  max-width: 100%;
+.course-assignments {
+border-top: 3px inset black;
+border-bottom: 3px inset black;
 }
-.footer {
-  display: flex;
-  justify-content:center;
-  margin: 1rem auto 0;
-  padding: 1rem 0 0.75rem 0;
-  width: 100%;
-  flex-wrap: wrap;
-  border-top: 4px;
+
+footer, ul li, span {
+  font-family: 'Catamaran', sans-serif;
+}
+
+footer {
+  padding: 15px;
+  background-color: #2b516e;
+  color: white;
 }
