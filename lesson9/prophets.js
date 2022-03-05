@@ -34,10 +34,10 @@ prophets.forEach(displayProphets);
 
     
 
-    card.appendChild(prophetName);
+    card.appendChild(h2);
     card.appendChild(dob);
     card.appendChild(birthPlace);
-    card.appendChild(picture);
+    card.appendChild(portrait);
 
     document.querySelector('div.cards').appendChild(card);
   }
