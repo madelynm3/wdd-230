@@ -1,0 +1,56 @@
+h1,h2,h3 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+p {
+    font-family:  "Arial", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: .5em;
+}
+main div section {
+    text-align: center;
+    border: 2px solid black;
+
+    background-color: rgb(200, 203, 248);
+    
+}
+footer h3 {
+    text-align: center;
+   
+}
+
+/* Medium View */
+@media screen and (min-width: 32.5em) {
+    main div {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: .5em;
+    }
+}
+
+/*Medium Large View */
+@media screen and (min-width: 65em) {
+    main div {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: .5em;
+    }
+
+}
+
+/*Large View*/
+@media screen and (min-width: 100em) {
+    main div {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: .5em;
+    }
+}
