@@ -1,5 +1,6 @@
-// store the URL of the JSON file into a const variable
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
+
+
 
 fetch(requestURL)
   .then(function (response) {
@@ -7,16 +8,11 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    for (let i = 0; i < prophets.length; i++ ) {   
-    }
   });
 
-  // store the results of the converted response into an array
-  const prophets = jsonObject['prophets'];
+const prophets = jsonObject['prophets'];
 
-
-  // define a function named "displayProphets" which will be called for each prophet record in the prophets list
-  prophets.forEach(displayProphets);
+prophets.forEach(displayProphets);
 
   function displayProphets(prophet) {
     // Create elements to add to the document
@@ -40,10 +36,8 @@ fetch(requestURL)
     card.appendChild(birthPlace);
     card.appendChild(picture);
 
-    // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
   }
 
-
-
+  
   
