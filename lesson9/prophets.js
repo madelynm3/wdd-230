@@ -28,16 +28,16 @@ prophets.forEach(displayProphets);
     let birthPlace = document.createElement('p');
     birthPlace.textContent = `Place of Birth: ${prophet.birthdate}`
 
-    let portrait = document.createElement('img');
-    portrait.src = prophet.imageurl;
-    portrait.alt = 'image of prophet';
+    let pic = document.createElement('img');
+    pic.src = prophet.imageurl;
+    pic.alt = 'image of prophet';
 
     
 
     card.appendChild(h2);
     card.appendChild(dob);
     card.appendChild(birthPlace);
-    card.appendChild(portrait);
+    card.appendChild(pic);
 
     document.querySelector('div.cards').appendChild(card);
   }
