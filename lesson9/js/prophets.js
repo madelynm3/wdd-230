@@ -24,16 +24,16 @@ fetch(requestURL)
     let h2 = document.createElement('h2');
 
     let dob = document.createElement('prophet');
-    dob.textContent = `Date of Birth: ${prophet.birthdate}`
+    dob.textContent = (`Date of Birth: ${prophet.birthdate}`);
 
     let birthPlace = document.createElement('prophet');
-    birthPlace.textContent = `Place of Birth: ${prophet.birthdate}`
+    birthPlace.textContent = (`Place of Birth: ${prophet.birthdate}`);
 
     let portrait = document.createElement('img');
     portrait.src = prophet.imageurl;
     portrait.alt = 'image of prophet';
 
-    h2.textContent = '${prophet.name + prophet.lastname}'; 
+    h2.textContent = ('${prophet.name + prophet.lastname}'); 
 
     card.appendChild(prophetName);
     card.appendChild(dob);
@@ -44,15 +44,4 @@ fetch(requestURL)
   }
 
   
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
-    image.setAttribute('src', prophet.imageurl);
-    image.setAttribute('alt', 'Portait of ${prophet.name} ${prophet.lastname}');
-    image.setAttribute('loading', 'lazy');
-  
-    // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    card.appendChild(image);
-  
-    // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
   
