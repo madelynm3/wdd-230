@@ -4,6 +4,8 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
   document.querySelector('#current-temp').textContent = jsObject.main.temp;
+  document.querySelector('#wind-speed').textContent = jsObject.wind.speed;
+  document.querySelector('#description').textContent = jsObject.weather.description;
   });
 
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
