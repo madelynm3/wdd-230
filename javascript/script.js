@@ -1,9 +1,15 @@
+// select the elements to manipulate (output to)
+const datefield = document.querySelector("#date");
 
 
-let lastModified = new Date(document.lastModifed);
-let today = new Date()
+// derive the current date using a date object
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+  now
+);
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full",
+}).format(now);
+// long, medium, short options ... try them
 
-
-document.getElementById("year").innerText = today.getFullYear();
-document.getElementById("date").innerText = lastModified.toLocaleDateString();
-document.getElementById("time").innerText = lastModified.toLocaleString();
+datefield.innerHTML = `<em>${fulldate}</em>`;
