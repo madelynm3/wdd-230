@@ -1,6 +1,6 @@
 // select the elements to manipulate (output to)
-const datefield = document.querySelector("date");
-const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+const datefield = document.querySelector("#date");
+
 
 // derive the current date using a date object
 const now = new Date();
@@ -13,7 +13,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
 
 // Weather API
 const apiURL =
