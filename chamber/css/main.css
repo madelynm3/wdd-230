@@ -19,36 +19,34 @@ body {
   font-size: 50px;
 }
 .header h2 {
-  font-size:30px;
+  font-size: 30px;
 }
 .logo {
-	display: flex;
-	align-items: left;
-	margin-left: 1rem;
+  display: flex;
+  align-items: left;
+  margin-left: 1rem;
 }
 
 .logo img {
-	width: 80px;
-	height: auto;
+  width: 80px;
+  height: auto;
 }
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
-  
 }
 .topnav ul {
-  text-align:center;
+  text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 10;
 }
 
 .topnav li {
-  display:inline-block;
-  margin:0;
+  display: inline-block;
+  margin: 0;
   padding: 15px;
-  
 }
 /* Style the topnav links */
 .topnav a {
@@ -56,7 +54,6 @@ body {
   text-align: center;
   text-decoration: none;
 }
-
 
 /* Change color on hover */
 .topnav a:hover {
@@ -66,7 +63,7 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 25%;
 }
@@ -79,9 +76,9 @@ body {
   padding-left: 20px;
 }
 .middlecolumn {
-  float:left;
-  width:50%;
-  height:;
+  float: left;
+  width: 50%;
+  height: ;
   background-color: #f1f1f1;
   padding-left: 20px;
 }
@@ -114,9 +111,55 @@ body {
   margin-top: 20px;
 }
 
+main section.weather {
+  background-color: #022765;
+  color: white;
+}
+main section.weather h2 {
+  color: white;
+}
+main section.weather div {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #022765;
+  margin: 0;
+  min-height: 20px;
+}
+
+main section.weather h3 {
+  font-size: 3em;
+  margin: 0;
+  margin-top: 15px;
+}
+main section.weather h4 {
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+main section.weather h5 {
+  font-size: 1em;
+  text-align: center;
+}
+
+main section.weather span#speed {
+  color: white;
+  font-size: 1em;
+}
+main section.weather span#chill {
+  color: white;
+  font-size: 1em;
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
