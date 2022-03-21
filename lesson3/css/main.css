@@ -1,101 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+header {
+  padding: 15px;
+  background-color: #2b516e;
+  color: white;
+  text-align: center;
 }
 
-body {
-    max-width: 100%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+header img {
+  box-shadow: 10px 5px 5px black;
+  width: 150px;
 }
 
-header,
-footer {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-}
-
-footer p {
-    text-align: center;
-    font-size: 1.1em;
-    color: black;
-    font-family: "", sans-serif;
+h1 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 h2 {
-    padding: 0.5em;
-    font-size: 1.5em;
-    color: black;
-    text-align: center;
+  font-family: "Catamaran", sans-serif;
+  font-size: 2em;
 }
 
-main {
-    margin: 10px auto;
-    padding: 0 2em 2em 2em;
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    flex-direction: none;
-    padding: 0;
-    text-align: center;
-    background-color:blue;
-
+.course-assignments {
+  border-top: 3px inset black;
+  border-bottom: 3px inset black;
 }
 
-nav ul li {
-    flex: 1 1 auto;
-    padding: 10px;
-    border: 1px salmon;
+footer,
+ul li,
+span {
+  font-family: "Catamaran", sans-serif;
 }
 
-nav a {
-    color: white;
-    list-style: none;
-    text-decoration: none;
+footer {
+  padding: 15px;
+  background-color: #2b516e;
+  color: white;
 }
-
-li {
-    list-style: none;
-}
-
-p,
-a {
-    font-family: "", sans-serif;
-    color: blueviolet;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-img {
-    display: block;
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-    margin: 0 auto;
-    padding: 1em 0 1em 0
-}
-
-  /* Medium view*/
-  @media screen and (min-width:540px){
-      nav ul {
-          flex-direction: row;
-      }
-      nav ul li a:hover {
-          color: red;
-      }
-  }
-  
-  /*Large view*/
-  @media screen and (min-width:800px){
-      body {
-          max-width: 800px;
-          margin-right: auto;
-          margin-left: auto;
-      }
-  }
